@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { navigation, profile } from '@/content';
+import { navigation } from '@/content';
 import { useActiveSection } from '@/hooks/useActiveSection';
 import { Container } from '@/components/ui/Container';
 import { cn } from '@/components/ui/cn';
@@ -45,6 +45,7 @@ export function Header() {
               )}
             >
               CV
+              <b className="text-accent ml-3.5 font-normal">↗</b>
             </Link>
             {/* <a
               href={`mailto:${profile.email}`}

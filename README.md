@@ -2,6 +2,9 @@
 
 React + TypeScript + Three.js portfolio. Single-page site at `/`, CV at `/cv`.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
 ```bash
 npm install
 npm run dev        # http://localhost:5173
@@ -94,3 +97,31 @@ is fully usable with the scene never loading at all.
   backdrop click.
 - Experience uses native `<details>`, so it works on Enter/Space.
 - The canvas is `aria-hidden`; its meaning sits in the visible captions.
+
+## License
+
+The code in this repository — components, hooks, the 3D scene, build config,
+and the overall structure — is licensed under the [MIT License](LICENSE). Use
+it, fork it, strip it down for your own portfolio, whatever's useful; the only
+requirement is keeping the copyright notice.
+
+### Personal content
+
+The **MIT license covers the code, not the content it renders.** Rudra
+Sharma's name, photos, résumé (`public/Rudra_Sharma.pdf`), bio copy, and
+project/employment history in `src/data/*.json` are personal information, not
+open-source material — don't publish a copy of this site with that content
+still in it. If you're using this as a template:
+
+1. Replace every file in `src/data/` with your own information (each has a
+   matching type in `src/types/content.ts`, so `npm run typecheck` will catch
+   anything you miss).
+2. Swap the photos in `public/photos/` and the résumé in `public/`.
+3. Update `profile.json`'s `monogram`, `brand`, and `website`, and the meta
+   tags in `index.html`.
+
+A contribution to *this* repository (a bug fix, an accessibility
+improvement, a genuine feature) is welcome and falls under the MIT license
+above like any other code change here — see the
+[Code of Conduct](CODE_OF_CONDUCT.md) for how we expect people to treat each
+other while doing that.

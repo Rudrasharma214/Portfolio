@@ -71,7 +71,7 @@ export function Hero() {
         <RevealGroup
           variant="up"
           step={80}
-          className="grid grid-cols-2 gap-y-6 border-y border-line py-7 sm:grid-cols-4 sm:gap-y-0"
+          className="grid grid-cols-2 gap-y-6 border-y border-line py-7 lg:grid-cols-5 lg:gap-y-0"
         >
           {stats.map((stat) => (
             <Stat key={stat.id} stat={stat} />

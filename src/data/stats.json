@@ -20,5 +20,11 @@
     "value": "300",
     "accent": "+",
     "label": "DSA problems solved across platforms"
+  },
+  {
+    "id": "oss",
+    "value": "6",
+    "accent": "+",
+    "label": "Open-source contributions during Hacktoberfest"
   }
 ]
