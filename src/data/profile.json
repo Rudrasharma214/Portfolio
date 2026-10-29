@@ -1,0 +1,43 @@
+{
+  "name": "Rudra Sharma",
+  "shortName": "Rudra",
+  "monogram": "RS",
+  "role": "Backend Engineer",
+  "brand": "rudra.dev",
+  "location": "Bhopal, Madhya Pradesh",
+  "availability": "Currently at EsMagico",
+  "email": "rudrashma.810@gmail.com",
+  "phone": "+91 8225995827",
+  "website": "https://rudrasharma.dev",
+  "headline": {
+    "lead": "Systems that",
+    "accent": "stay up."
+  },
+  "intro": [
+    "I build backends that hold under load.",
+    "Event-driven services. Multi-tenant platforms.",
+    "The unglamorous work that keeps products running."
+  ],
+  "summary": "Backend engineer with around a year of software development experience across two internships, building Java/Spring Boot and Node.js microservices. Hands-on with event-driven systems (Kafka, BullMQ), multi-tenant SaaS, Redis caching, Keycloak/JWT auth, and AWS.",
+  "about": {
+    "statement": "I'm Rudra, a backend engineer.",
+    "lead": "I work on the half of the product nobody sees \u2014 the services, the queues, the caches.",
+    "detail": "Most of what I build sits behind an API \u2014 Spring Boot and Node.js services that pass messages through Kafka and BullMQ instead of blocking a request. I've shipped a multi-tenant SaaS ERP for 45 tenants, an ingestion pipeline that chews through 10M+ listings in under 15 seconds, and auth layers nobody has had to think about since. I care about the parts that only show up under load."
+  },
+  "photos": {
+    "portrait": {
+      "src": "/photos/rudra-portrait.jpg",
+      "alt": "Rudra Sharma",
+      "width": 562,
+      "height": 1000,
+      "position": "center 45%"
+    },
+    "contact": {
+      "src": "/photos/rudra-contact.jpg",
+      "alt": "Rudra Sharma",
+      "width": 506,
+      "height": 900,
+      "position": "center 45%"
+    }
+  }
+}

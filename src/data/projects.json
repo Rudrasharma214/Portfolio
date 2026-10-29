@@ -1,0 +1,38 @@
+[
+  {
+    "id": "doubtnix",
+    "index": "01",
+    "name": "DoubtNix",
+    "tagline": "AI-powered doubt solving",
+    "summary": "A full-stack document Q&A platform that returns LLM-generated answers over uploaded material, with document parsing pushed off the request cycle.",
+    "artLabel": "DOCUMENT Q&A",
+    "artCaption": "UPLOAD → PARSE → ANSWER",
+    "art": "ai",
+    "points": [
+      "Built and deployed a full-stack document Q&A platform returning LLM-generated answers via the Gemini API, with the backend hosted on AWS EC2.",
+      "Moved document parsing and post-processing into an async event-driven pipeline, decoupling heavy work from the request cycle.",
+      "Secured with 3-layer auth — JWT, OTP, and 2FA — plus session management.",
+      "Cloudinary-based file storage, with a React and TanStack Query frontend."
+    ],
+    "tags": ["Node.js", "Gemini API", "AWS EC2", "Cloudinary", "React", "TanStack Query"],
+    "status": "live"
+  },
+  {
+    "id": "sync-chat",
+    "index": "02",
+    "name": "Sync-Chat",
+    "tagline": "Real-time chat, horizontally scaled",
+    "summary": "1:1 and group messaging over Socket.IO with a Redis Pub/Sub adapter, so events stay in sync across multiple server instances.",
+    "artLabel": "REAL-TIME MESSAGING",
+    "artCaption": "SOCKET.IO × REDIS PUB/SUB",
+    "art": "realtime",
+    "points": [
+      "Built 1:1 and group messaging with Socket.IO and a Redis Pub/Sub adapter so events sync across multiple server instances for horizontal scaling; backend on AWS EC2.",
+      "Implemented JWT cookie auth with refresh-token rotation and 3-role group RBAC (owner / admin / member).",
+      "Built multi-device presence tracking and typing indicators.",
+      "Added VAPID web push notifications for offline users."
+    ],
+    "tags": ["Node.js", "Socket.IO", "Redis Pub/Sub", "AWS EC2", "Web Push"],
+    "status": "live"
+  }
+]

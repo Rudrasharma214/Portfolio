@@ -1,0 +1,24 @@
+[
+  {
+    "id": "tenants",
+    "value": "45",
+    "label": "Tenants served across 5 SaaS modules"
+  },
+  {
+    "id": "listings",
+    "value": "10M",
+    "accent": "+",
+    "label": "Listings ingested in under 15 seconds"
+  },
+  {
+    "id": "latency",
+    "value": "10s → 2s",
+    "label": "Analytics response after Redis caching"
+  },
+  {
+    "id": "dsa",
+    "value": "300",
+    "accent": "+",
+    "label": "DSA problems solved across platforms"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "languages",
+    "index": "01",
+    "title": "Languages",
+    "items": ["Java", "JavaScript", "TypeScript", "SQL"]
+  },
+  {
+    "id": "backend",
+    "index": "02",
+    "title": "Backend",
+    "items": [
+      "Spring Boot",
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Microservices",
+      "Event-Driven Architecture"
+    ]
+  },
+  {
+    "id": "messaging",
+    "index": "03",
+    "title": "Messaging & Async",
+    "items": ["Apache Kafka", "BullMQ", "Socket.IO", "Worker threads", "EventEmitter"]
+  },
+  {
+    "id": "data",
+    "index": "04",
+    "title": "Data & Caching",
+    "items": ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
+  },
+  {
+    "id": "security",
+    "index": "05",
+    "title": "Security",
+    "items": ["Keycloak", "JWT", "RBAC", "Rate limiting", "OTP / 2FA"]
+  },
+  {
+    "id": "frontend",
+    "index": "06",
+    "title": "Frontend & Tools",
+    "items": ["React.js", "TanStack Query", "Git", "Postman"]
+  }
+]

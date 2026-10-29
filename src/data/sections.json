@@ -1,0 +1,32 @@
+{
+  "work": {
+    "index": "01",
+    "eyebrow": "Selected work",
+    "title": ["Shipped, not", "demoed."],
+    "description": "Two projects taken all the way to production — real auth, real queues, real hosting."
+  },
+  "experience": {
+    "index": "02",
+    "eyebrow": "The trajectory",
+    "title": ["A year of", "shipping backends."],
+    "description": "Microservices on a government platform, and a multi-tenant SaaS ERP before that."
+  },
+  "about": {
+    "index": "03",
+    "eyebrow": "Behind the API",
+    "title": ["Built for", "the load."],
+    "description": ""
+  },
+  "skills": {
+    "index": "04",
+    "eyebrow": "Engineering toolkit",
+    "title": ["The stack behind the services."],
+    "description": "From the JVM to the queue to the cache, with auth and deployment in between."
+  },
+  "contact": {
+    "index": "05",
+    "eyebrow": "Let's build something",
+    "title": ["Got a backend", "that needs to scale?"],
+    "description": ""
+  }
+}

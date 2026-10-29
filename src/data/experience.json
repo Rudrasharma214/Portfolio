@@ -1,0 +1,37 @@
+[
+  {
+    "id": "esmagico",
+    "company": "EsMagico",
+    "role": "Software Engineer Intern",
+    "location": "Remote, India",
+    "start": "Jun 2026",
+    "end": null,
+    "bullets": [
+      "Own 3 Spring Boot microservices in a License & Certificate Management System built on eGov's DIGIT platform: Verifiable Credentials, PDF generation, and a JSON Schema registry.",
+      "Built Kafka producers and consumers for event-driven inter-service communication; the certificate service consumes payment-completed events to drive application workflow state transitions.",
+      "Designed the Verifiable Credentials service with 2 pluggable credential adapters (walt.id, MOSIP), enabling standards-based credential issuance and verification.",
+      "Built a PDF service that stores JSON templates, renders them to HTML, and generates PDFs via headless Chromium at ~5 PDFs/sec, with per-identifier rate limiting to protect rendering capacity.",
+      "Built a schema registry service for managing the JSON Schemas used across services.",
+      "Containerized services with Docker; supported DevOps on Kubernetes deployments via kubectl and pod-log debugging, shipping through Jenkins CI/CD pipelines."
+    ],
+    "tags": ["Spring Boot", "Apache Kafka", "Docker", "Kubernetes", "Jenkins"]
+  },
+  {
+    "id": "tryidol",
+    "company": "Tryidol Tech",
+    "role": "Software Engineer Intern",
+    "location": "Bhopal, India",
+    "start": "Sep 2025",
+    "end": "Feb 2026",
+    "bullets": [
+      "Built backend services (Node.js, Express, MySQL) for a multi-tenant SaaS ERP serving 45 tenants across 5 modules, including Attendance (AMS), HRMS, User Management (UMS), and PMS.",
+      "Implemented event-driven async workflows with BullMQ job queues and Node.js EventEmitter for event-based notifications, keeping heavy work off the request path.",
+      "Built multi-tenant file storage on AWS S3 with presigned-URL uploads and per-tenant bucket management.",
+      "Cached analytics dashboards in Redis, cutting response time on million-row queries from 10s+ to 1–2s.",
+      "Designed REST APIs secured with JWT and RBAC on a normalized relational schema that kept data consistent across modules.",
+      "Built async XML ingestion for a job aggregation platform processing 10M+ listings in under 15s per run, using a native C++ parser across Node.js worker threads.",
+      "Built job filtering and short-link tracking to capture user interaction data for analytics and fraud detection."
+    ],
+    "tags": ["Node.js", "BullMQ", "Redis", "AWS S3", "MySQL", "JWT / RBAC"]
+  }
+]
