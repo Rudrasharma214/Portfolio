@@ -12,10 +12,10 @@ export function About() {
             <Photo
               asset={profile.photos.portrait}
               variant="portrait"
-              className="mb-8 max-w-[240px] lg:max-w-none"
+              className="mx-auto mb-8 max-w-[240px] lg:mx-0 lg:max-w-none"
             />
 
-            <div className="micro text-gold mb-4">
+            <div className="micro text-accent-alt mb-4">
               {sections.about.index} / {sections.about.eyebrow}
             </div>
             <h2
@@ -50,7 +50,7 @@ export function About() {
             <div className="border-line-strong mt-7 flex items-center gap-3.5 border-t pt-6">
               <span
                 aria-hidden
-                className="border-line-strong text-gold grid size-11 shrink-0 place-items-center rounded-full border text-xl"
+                className="border-line-strong text-accent-alt grid size-11 shrink-0 place-items-center rounded-full border text-xl"
               >
                 ⌘
               </span>
@@ -62,7 +62,7 @@ export function About() {
               </div>
             </div>
 
-            <h3 className="micro text-gold mt-7 mb-3 font-normal">Certifications</h3>
+            <h3 className="micro text-accent-alt mt-7 mb-3 font-normal">Certifications</h3>
             <ul className="m-0 list-none p-0">
               {achievements.certifications.map((cert) => (
                 <li key={cert} className="text-muted py-1 text-[13px]">

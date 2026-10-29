@@ -28,7 +28,7 @@ export function Hero() {
             >
               {profile.headline.lead}
               <br />
-              <em className="text-orange not-italic">{profile.headline.accent}</em>
+              <em className="text-accent not-italic">{profile.headline.accent}</em>
             </h1>
 
             <p className="m-0 max-w-[430px] text-[15px] leading-[1.65] text-muted sm:text-[17px]">

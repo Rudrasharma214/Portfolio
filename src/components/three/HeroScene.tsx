@@ -51,7 +51,7 @@ export function HeroScene() {
   return (
     <div
       ref={ref}
-      className="border-line/60 relative mx-auto aspect-square w-[90%] max-w-[430px] self-center rounded-full border bg-[radial-gradient(ellipse_at_center,rgba(255,107,26,0.05),transparent_65%)] lg:max-h-[550px] lg:w-full lg:max-w-none"
+      className="border-line/60 relative mx-auto aspect-square w-[90%] max-w-[430px] self-center rounded-full border bg-[radial-gradient(ellipse_at_center,rgba(255,182,39,0.05),transparent_65%)] lg:max-h-[550px] lg:w-full lg:max-w-none"
     >
       <span aria-hidden className="border-line/50 absolute inset-[11%] rounded-full border" />
       <span aria-hidden className="border-line/40 absolute inset-[28%] rounded-full border" />
@@ -73,7 +73,7 @@ export function HeroScene() {
       </div>
 
       <span className="micro bg-bg text-muted absolute top-[8%] left-[3%] z-[2] p-1.5 text-[9px]">
-        Fig. 01 — Service topology
+        Fig. 01 — System topology
       </span>
       <span className="micro bg-bg text-muted absolute right-0 bottom-[17%] z-[2] p-1.5 text-right text-[9px]">
         Drag to rotate ↔

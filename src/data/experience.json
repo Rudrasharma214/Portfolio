@@ -3,7 +3,7 @@
     "id": "esmagico",
     "company": "EsMagico",
     "role": "Software Engineer Intern",
-    "location": "Remote, India",
+    "location": "Bangalore, India",
     "start": "Jun 2026",
     "end": null,
     "bullets": [
@@ -14,7 +14,7 @@
       "Built a schema registry service for managing the JSON Schemas used across services.",
       "Containerized services with Docker; supported DevOps on Kubernetes deployments via kubectl and pod-log debugging, shipping through Jenkins CI/CD pipelines."
     ],
-    "tags": ["Spring Boot", "Apache Kafka", "Docker", "Kubernetes", "Jenkins"]
+    "tags": ["Spring Boot", "PostgreSql", "Apache Kafka", "Docker"]
   },
   {
     "id": "tryidol",

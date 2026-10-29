@@ -17,7 +17,7 @@ export function ExperienceItem({ item, open }: { item: Experience; open?: boolea
         </span>
         <span
           aria-hidden
-          className="text-muted group-open:text-orange col-start-2 row-start-1 row-end-4 justify-self-end text-[23px] transition-[rotate,color] duration-300 group-open:rotate-45 md:col-start-4 md:row-auto"
+          className="text-muted group-open:text-accent col-start-2 row-start-1 row-end-4 justify-self-end text-[23px] transition-[rotate,color] duration-300 group-open:rotate-45 md:col-start-4 md:row-auto"
         >
           +
         </span>

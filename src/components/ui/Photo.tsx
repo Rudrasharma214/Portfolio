@@ -38,7 +38,7 @@ export function Photo({
         <div
           role="img"
           aria-label={`${asset.alt} — photo not available`}
-          className="grid size-full place-items-center bg-[repeating-linear-gradient(135deg,transparent,transparent_9px,rgba(255,182,39,0.05)_9px,rgba(255,182,39,0.05)_18px)]"
+          className="grid size-full place-items-center bg-[repeating-linear-gradient(135deg,transparent,transparent_9px,rgba(255,107,26,0.05)_9px,rgba(255,107,26,0.05)_18px)]"
         >
           <span className="micro text-faint px-3 text-center text-[9px]">Photo</span>
         </div>

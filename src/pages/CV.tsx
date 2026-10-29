@@ -79,7 +79,7 @@ export default function CV() {
                   onClick={toggleExpand}
                   aria-pressed={expanded}
                   aria-label={expanded ? 'Exit full screen' : 'View full screen'}
-                  className="grid size-8 place-items-center rounded border border-line text-muted transition-colors hover:border-orange hover:text-orange"
+                  className="grid size-8 place-items-center rounded border border-line text-muted transition-colors hover:border-accent hover:text-accent"
                 >
                   <svg
                     viewBox="0 0 16 16"
@@ -113,7 +113,7 @@ export default function CV() {
 
           <Link
             to="/"
-            className="mt-8 inline-flex items-center gap-2 text-[13px] text-muted transition-colors hover:text-orange"
+            className="mt-8 inline-flex items-center gap-2 text-[13px] text-muted transition-colors hover:text-accent"
           >
             <span aria-hidden>←</span> Back to portfolio
           </Link>

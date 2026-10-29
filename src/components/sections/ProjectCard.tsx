@@ -24,7 +24,7 @@ export function ProjectCard({
       <div className="p-6">
         <div className="micro text-muted flex justify-between text-[10px]">
           <span>Project / {project.index}</span>
-          <span className="text-gold">{project.status === 'live' ? 'Live ↗' : 'WIP'}</span>
+          <span className="text-accent-alt">{project.status === 'live' ? 'Live ↗' : 'WIP'}</span>
         </div>
 
         <h3 className="mt-4 mb-2 text-2xl font-normal tracking-[-0.03em]">{project.name}</h3>
@@ -36,7 +36,7 @@ export function ProjectCard({
           <button
             type="button"
             onClick={() => onOpen(project)}
-            className="hover:text-orange transition-colors"
+            className="hover:text-accent transition-colors"
           >
             Explore project <span aria-hidden>+</span>
           </button>
@@ -45,7 +45,7 @@ export function ProjectCard({
               href={project.repo}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted hover:text-orange transition-colors"
+              className="text-muted hover:text-accent transition-colors"
             >
               GitHub ↗
             </a>

@@ -4,11 +4,11 @@ import { useLockBodyScroll } from '@/hooks/useLockBodyScroll';
 import { cn } from './cn';
 
 /** Hold the splash at least this long, so it reads as intentional rather than a flash. */
-const MIN_MS = 900;
+const MIN_MS = 1100;
 /** Never hold it longer than this, even if something is still downloading. */
-const MAX_MS = 2600;
+const MAX_MS = 2800;
 /** Length of the fade-out, kept in sync with the CSS duration below. */
-const EXIT_MS = 520;
+const EXIT_MS = 620;
 
 /**
  * First-paint splash: monogram, domain, and a bar that tracks loading.
@@ -87,7 +87,7 @@ export function Loader({ onDone, skip }: { onDone: () => void; skip: boolean }) 
 
         <div className="mt-6 h-px w-[250px] max-w-full overflow-hidden bg-line">
           <div
-            className="h-full bg-orange transition-[width] duration-200 ease-out"
+            className="h-full bg-accent transition-[width] duration-200 ease-out"
             style={{ width: `${progress}%` }}
           />
         </div>

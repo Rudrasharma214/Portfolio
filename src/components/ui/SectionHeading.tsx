@@ -12,7 +12,7 @@ export function SectionHeading({ meta, className }: { meta: SectionMeta; classNa
       )}
     >
       <div>
-        <div className="micro text-gold mb-4">
+        <div className="micro text-accent-alt mb-4">
           {meta.index} / {meta.eyebrow}
         </div>
         <h2 className="m-0 text-[clamp(2.25rem,4vw,3.5rem)] leading-[1.05] font-normal tracking-[-0.045em]">

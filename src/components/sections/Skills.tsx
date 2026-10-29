@@ -14,7 +14,7 @@ export function Skills() {
           {skills.map((group) => (
             <div key={group.id} className="border-t border-line py-7">
               <h3 className="m-0 mb-5 text-lg font-normal">
-                <span className="micro mr-4 text-[10px] text-gold">{group.index}</span>
+                <span className="micro mr-4 text-[10px] text-accent-alt">{group.index}</span>
                 {group.title}
               </h3>
               <TagList items={group.items} className="gap-2" />

@@ -8,10 +8,10 @@ const base =
 
 const variants: Record<Variant, string> = {
   primary:
-    'justify-between gap-8 rounded border border-orange bg-orange px-6 py-4 font-bold text-bg hover:-translate-y-0.5 hover:bg-orange-soft',
-  quiet: 'py-3 text-ink hover:text-orange',
+    'justify-between gap-8 rounded border border-accent bg-accent px-6 py-4 font-bold text-bg hover:-translate-y-0.5 hover:bg-accent-soft',
+  quiet: 'py-3 text-ink hover:text-accent',
   outline:
-    'rounded-full border border-line px-5 py-3 text-ink hover:border-orange hover:text-orange',
+    'rounded-full border border-line px-5 py-3 text-ink hover:border-accent hover:text-accent',
 };
 
 interface Shared {

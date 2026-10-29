@@ -21,8 +21,8 @@ export function Satellites({ paused }: { paused: boolean }) {
         return {
           key: i,
           position: [Math.cos(angle) * r, Math.sin(angle) * r * 0.58, 0] as const,
-          // Every third speck picks up the orange accent.
-          color: i % 3 === 0 ? '#ff6b1a' : '#7d756d',
+          // Every third speck picks up the accent accent.
+          color: i % 3 === 0 ? '#ffb627' : '#7d756d',
         };
       }),
     [],

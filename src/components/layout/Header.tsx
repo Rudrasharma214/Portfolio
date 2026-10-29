@@ -40,19 +40,19 @@ export function Header() {
               className={cn(
                 'rounded-full border px-5 py-3 text-xs transition-colors',
                 pathname === '/cv'
-                  ? 'border-orange text-orange'
-                  : 'border-line text-ink hover:border-orange',
+                  ? 'border-accent text-accent'
+                  : 'border-line text-ink hover:border-accent',
               )}
             >
               CV
             </Link>
-            <a
+            {/* <a
               href={`mailto:${profile.email}`}
-              className="border-line text-ink hover:border-orange rounded-full border px-5 py-3 text-xs transition-colors"
+              className="border-line text-ink hover:border-accent rounded-full border px-5 py-3 text-xs transition-colors"
             >
               Let's connect
-              <b className="text-gold ml-3.5 font-normal">↗</b>
-            </a>
+              <b className="text-accent-alt ml-3.5 font-normal">↗</b>
+            </a> */}
           </nav>
 
           <button

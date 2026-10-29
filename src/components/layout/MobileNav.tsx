@@ -68,7 +68,7 @@ export function MobileNav({
           <Link
             to="/cv"
             onClick={onClose}
-            className="border-line text-gold border-b py-4 text-2xl font-normal tracking-[-0.03em]"
+            className="border-line text-accent-alt border-b py-4 text-2xl font-normal tracking-[-0.03em]"
           >
             CV ↗
           </Link>

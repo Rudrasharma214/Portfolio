@@ -1,8 +1,8 @@
 {
-  "title": "Rudra Sharma — Backend Engineer",
-  "description": "Backend engineer building event-driven Java/Spring Boot and Node.js microservices — Kafka, BullMQ, Redis, multi-tenant SaaS, on AWS.",
+  "title": "Rudra Sharma — Software Engineer",
+  "description": "Software engineer building full-stack products with Java/Spring Boot, Node.js and React — microservices, Kafka, BullMQ, Redis, multi-tenant SaaS, on AWS.",
   "cvTitle": "CV — Rudra Sharma",
-  "cvDescription": "Curriculum vitae for Rudra Sharma, backend engineer based in Bhopal, India.",
+  "cvDescription": "Curriculum vitae for Rudra Sharma, software engineer based in Bhopal, India.",
   "url": "https://rudrasharma.dev",
   "ogImage": "/og-image.png"
 }

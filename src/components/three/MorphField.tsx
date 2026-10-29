@@ -8,8 +8,8 @@ import { lineFragmentShader, morphVertexShader, pointFragmentShader } from './sh
 /** Morph duration in seconds. */
 const MORPH_SECONDS = 1.1;
 
-const NEAR_COLOR = new Color('#ff6b1a');
-const FAR_COLOR = new Color('#ffb627');
+const NEAR_COLOR = new Color('#ffb627');
+const FAR_COLOR = new Color('#ff6b1a');
 
 function easeInOut(t: number) {
   return t * t * (3 - 2 * t);

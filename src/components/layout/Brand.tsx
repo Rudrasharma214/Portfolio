@@ -9,7 +9,7 @@ export function Brand({ to = '/' }: { to?: string }) {
       aria-label={`${profile.name} — home`}
       className="group inline-flex items-center"
     >
-      <span className="grid size-10 place-items-center rounded-sm border border-line-strong/70 text-[15px] font-bold tracking-[-0.03em] text-ink transition-colors duration-200 group-hover:border-orange group-hover:text-orange">
+      <span className="grid size-11 place-items-center rounded-md border border-line-strong/70 text-[18px] font-bold tracking-[-0.03em] text-ink transition-colors duration-200 group-hover:border-accent group-hover:text-accent lg:size-[52px] lg:text-[22px]">
         {profile.monogram}
       </span>
     </Link>

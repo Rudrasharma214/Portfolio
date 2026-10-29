@@ -9,7 +9,7 @@ export function MotionToggle() {
       type="button"
       onClick={toggle}
       aria-pressed={paused}
-      className="micro border-line text-muted hover:border-orange hover:text-orange rounded-full border px-3 py-2 text-[9px] transition-colors"
+      className="micro border-line text-muted hover:border-accent hover:text-accent rounded-full border px-3 py-2 text-[9px] transition-colors"
     >
       Motion: {paused ? 'off' : 'on'}
     </button>

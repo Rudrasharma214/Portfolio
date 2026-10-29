@@ -21,7 +21,7 @@ export function Contact({ onToast }: { onToast: (message: string) => void }) {
       <Container>
         <Reveal variant="scale" duration={900} className="flex items-center justify-between gap-12">
           <div>
-            <div className="micro text-gold mb-4">
+            <div className="micro text-accent-alt mb-4">
               {sections.contact.index} / {sections.contact.eyebrow}
             </div>
             <h2
@@ -29,7 +29,7 @@ export function Contact({ onToast }: { onToast: (message: string) => void }) {
               className="my-6 text-[clamp(2.75rem,6.4vw,5.4rem)] leading-[1.06] font-normal tracking-[-0.05em]"
             >
               {sections.contact.title.map((line, i) => (
-                <span key={line} className={i === 1 ? 'text-orange block' : 'block'}>
+                <span key={line} className={i === 1 ? 'text-accent block' : 'block'}>
                   {line}
                 </span>
               ))}
@@ -37,18 +37,18 @@ export function Contact({ onToast }: { onToast: (message: string) => void }) {
 
             <a
               href={`mailto:${profile.email}`}
-              className="border-faint hover:text-orange inline-flex items-center gap-4 border-b pb-2 text-sm transition-colors sm:gap-8 sm:text-[17px]"
+              className="border-faint hover:text-accent inline-flex items-center gap-4 border-b pb-2 text-sm transition-colors sm:gap-8 sm:text-[17px]"
             >
               {profile.email} <span aria-hidden>↗</span>
             </a>
 
             <div className="text-muted mt-5 flex flex-wrap items-center gap-6 text-[13px]">
-              <button type="button" onClick={handleCopy} className="hover:text-orange">
+              <button type="button" onClick={handleCopy} className="hover:text-accent">
                 Copy email <span aria-hidden>⧉</span>
               </button>
-              <a href={`tel:${profile.phone.replace(/\s/g, '')}`} className="hover:text-orange">
+              {/* <a href={`tel:${profile.phone.replace(/\s/g, '')}`} className="hover:text-accent">
                 {profile.phone} <span aria-hidden>↗</span>
-              </a>
+              </a> */}
             </div>
           </div>
 

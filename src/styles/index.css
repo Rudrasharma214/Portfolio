@@ -1,10 +1,10 @@
 @import 'tailwindcss';
 
 /* ── Design tokens ────────────────────────────────────────────────────────────
-   Black / orange / golden-yellow. Declared once here so Tailwind generates
-   utilities (bg-bg, text-gold, border-line) and raw CSS can read var(--color-*).
-   Accent discipline: orange = interactive + primary emphasis, gold = numerals
-   and section indices, orange→gold gradient = large decorative strokes only. */
+   Black / accent / accent-alten-yellow. Declared once here so Tailwind generates
+   utilities (bg-bg, text-accent-alt, border-line) and raw CSS can read var(--color-*).
+   Accent discipline: accent = interactive + primary emphasis, accent-alt = numerals
+   and section indices, accent→accent-alt gradient = large decorative strokes only. */
 @theme {
   --color-bg: #0a0908;
   --color-surface: #131110;
@@ -14,10 +14,13 @@
   --color-ink: #f6efe4;
   --color-muted: #a39a90;
   --color-faint: #76706a;
-  --color-orange: #ff6b1a;
-  --color-orange-soft: #ff8c42;
-  --color-gold: #ffb627;
-  --color-amber: #f0a500;
+  /* Golden yellow is the primary accent; orange is the secondary. Swapping
+     the two is a matter of swapping these two hex values — every utility and
+     component reads through the role name, never the colour name. */
+  --color-accent: #ffb627;
+  --color-accent-soft: #ffd166;
+  --color-accent-alt: #ff6b1a;
+  --color-accent-alt-soft: #ff8c42;
 
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
   --font-mono: ui-monospace, 'SFMono-Regular', 'SF Mono', Menlo, Consolas, monospace;
@@ -83,13 +86,13 @@
   }
 
   :focus-visible {
-    outline: 2px solid var(--color-orange);
+    outline: 2px solid var(--color-accent);
     outline-offset: 5px;
     border-radius: 2px;
   }
 
   ::selection {
-    background: var(--color-orange);
+    background: var(--color-accent);
     color: var(--color-bg);
   }
 
@@ -113,7 +116,7 @@
     border-radius: 10px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-orange);
+    background: var(--color-accent);
   }
 }
 

@@ -2,27 +2,27 @@
   "name": "Rudra Sharma",
   "shortName": "Rudra",
   "monogram": "RS",
-  "role": "Backend Engineer",
+  "role": "Software Engineer",
   "brand": "rudra.dev",
   "location": "Bhopal, Madhya Pradesh",
   "availability": "Currently at EsMagico",
   "email": "rudrashma.810@gmail.com",
-  "phone": "+91 8225995827",
+  "phone": "",
   "website": "https://rudrasharma.dev",
   "headline": {
-    "lead": "Systems that",
-    "accent": "stay up."
+    "lead": "Software that",
+    "accent": "holds up."
   },
   "intro": [
-    "I build backends that hold under load.",
-    "Event-driven services. Multi-tenant platforms.",
-    "The unglamorous work that keeps products running."
+    "I build software end to end.",
+    "APIs and event-driven services, React front-ends,",
+    "and the pipeline that ships them."
   ],
-  "summary": "Backend engineer with around a year of software development experience across two internships, building Java/Spring Boot and Node.js microservices. Hands-on with event-driven systems (Kafka, BullMQ), multi-tenant SaaS, Redis caching, Keycloak/JWT auth, and AWS.",
+  "summary": "Software engineer with around a year of experience across two internships, building full-stack products with Java/Spring Boot, Node.js and React. Hands-on with microservices, event-driven systems (Kafka, BullMQ), multi-tenant SaaS, Redis caching, Keycloak/JWT auth, and AWS.",
   "about": {
-    "statement": "I'm Rudra, a backend engineer.",
-    "lead": "I work on the half of the product nobody sees \u2014 the services, the queues, the caches.",
-    "detail": "Most of what I build sits behind an API \u2014 Spring Boot and Node.js services that pass messages through Kafka and BullMQ instead of blocking a request. I've shipped a multi-tenant SaaS ERP for 45 tenants, an ingestion pipeline that chews through 10M+ listings in under 15 seconds, and auth layers nobody has had to think about since. I care about the parts that only show up under load."
+    "statement": "I'm Rudra, a software engineer.",
+    "lead": "I like owning a feature the whole way — schema, service, API, interface, deploy.",
+    "detail": "I've shipped a multi-tenant SaaS ERP serving 45 tenants, an ingestion pipeline that chews through 10M+ listings in under 15 seconds, and full-stack products like DoubtNix where I wrote both the React front-end and the APIs underneath it. The hardest parts usually live behind the API — Spring Boot and Node.js services passing messages through Kafka and BullMQ instead of blocking a request — but I'd rather own the whole path, from the database through to the screen and the Docker/Kubernetes pipeline that deploys it."
   },
   "photos": {
     "portrait": {

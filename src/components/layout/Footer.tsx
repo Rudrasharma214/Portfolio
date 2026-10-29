@@ -18,12 +18,12 @@ export function Footer() {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-orange transition-colors"
+                className="hover:text-accent transition-colors"
               >
                 {social.label} ↗
               </a>
             ))}
-            <a href="#top" className="hover:text-orange transition-colors">
+            <a href="#top" className="hover:text-accent transition-colors">
               Back to top ↑
             </a>
           </div>

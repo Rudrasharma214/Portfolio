@@ -3,7 +3,12 @@
     "id": "languages",
     "index": "01",
     "title": "Languages",
-    "items": ["Java", "JavaScript", "TypeScript", "SQL"]
+    "items": [
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "SQL"
+    ]
   },
   {
     "id": "backend",
@@ -19,27 +24,48 @@
     ]
   },
   {
-    "id": "messaging",
+    "id": "frontend",
     "index": "03",
+    "title": "Frontend & Tools",
+    "items": [
+      "React.js",
+      "TanStack Query",
+      "Git",
+      "Postman"
+    ]
+  },
+  {
+    "id": "messaging",
+    "index": "04",
     "title": "Messaging & Async",
-    "items": ["Apache Kafka", "BullMQ", "Socket.IO", "Worker threads", "EventEmitter"]
+    "items": [
+      "Apache Kafka",
+      "BullMQ",
+      "Socket.IO",
+      "Worker threads"
+    ]
   },
   {
     "id": "data",
-    "index": "04",
+    "index": "05",
     "title": "Data & Caching",
-    "items": ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
+    "items": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis"
+    ]
   },
   {
     "id": "security",
-    "index": "05",
-    "title": "Security",
-    "items": ["Keycloak", "JWT", "RBAC", "Rate limiting", "OTP / 2FA"]
-  },
-  {
-    "id": "frontend",
     "index": "06",
-    "title": "Frontend & Tools",
-    "items": ["React.js", "TanStack Query", "Git", "Postman"]
+    "title": "Security",
+    "items": [
+      "Keycloak",
+      "JWT",
+      "RBAC",
+      "Rate limiting",
+      "OTP / 2FA"
+    ]
   }
 ]

@@ -15,7 +15,7 @@ export type ShapeId = 'mesh' | 'cluster' | 'stream';
 export const SHAPE_ORDER: ShapeId[] = ['mesh', 'cluster', 'stream'];
 
 export const SHAPE_LABELS: Record<ShapeId, { label: string; caption: string }> = {
-  mesh: { label: 'Mesh', caption: 'Services calling services' },
+  mesh: { label: 'Mesh', caption: 'Pieces wired together' },
   cluster: { label: 'Cluster', caption: 'Horizontally scaled instances' },
   stream: { label: 'Stream', caption: 'An ordered event log' },
 };
