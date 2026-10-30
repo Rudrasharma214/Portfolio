@@ -2,6 +2,7 @@ import { useCallback, useState } from 'react';
 import { RouterProvider } from 'react-router-dom';
 import { MotionProvider, useMotion } from '@/context/MotionContext';
 import { Loader } from '@/components/ui/Loader';
+import { ParticleField } from '@/components/ui/ParticleField';
 import { router } from '@/router';
 
 /** Sits inside the provider so the splash can read the motion preference. */
@@ -13,6 +14,9 @@ function Shell() {
   return (
     <>
       {!booted ? <Loader onDone={handleDone} skip={paused} /> : null}
+      {/* One global layer, outside any route's tree, so it persists across
+          navigation instead of remounting on every page. */}
+      <ParticleField />
       <RouterProvider router={router} />
     </>
   );
