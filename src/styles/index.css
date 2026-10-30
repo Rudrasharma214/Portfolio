@@ -129,6 +129,29 @@
   text-transform: uppercase;
 }
 
+/* Idle drift for the hero MacBook; paused globally via `.motion-paused`. */
+@keyframes hero-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@utility hero-float {
+  animation: hero-float 6s ease-in-out infinite;
+}
+
+@keyframes cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
+@utility cursor-blink {
+  animation: cursor-blink 1s step-end infinite;
+}
+
 /* ── Motion ───────────────────────────────────────────────────────────────────
    `.motion-paused` is set on <html> by MotionContext — either because the
    visitor hit the toggle or because they prefer reduced motion. */

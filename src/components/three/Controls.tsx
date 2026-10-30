@@ -20,6 +20,8 @@ export function Controls({ autoRotate }: { autoRotate: boolean }) {
     instance.dampingFactor = 0.08;
     instance.rotateSpeed = 0.45;
     instance.autoRotateSpeed = 0.5;
+    instance.minPolarAngle = Math.PI * 0.28;
+    instance.maxPolarAngle = Math.PI * 0.58;
 
     // OrbitControls sets `touch-action: none`, which would swallow vertical
     // swipes and trap the page scroll on phones. Allow pan-y back, as the

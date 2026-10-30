@@ -5,11 +5,11 @@ import { Eyebrow } from '@/components/ui/Eyebrow';
 import { ButtonLink } from '@/components/ui/Button';
 import { Stat } from '@/components/ui/Stat';
 import { Reveal, RevealGroup } from '@/components/ui/Reveal';
-import { SceneFallback } from '@/components/three/SceneFallback';
+import { CodeMacBook } from '@/components/hero/CodeMacBook';
 
 // `three` is ~250KB gzipped — keep it out of the entry chunk so the headline paints first.
-const HeroScene = lazy(() =>
-  import('@/components/three/HeroScene').then((m) => ({ default: m.HeroScene })),
+const LaptopScene = lazy(() =>
+  import('@/components/three/LaptopScene').then((m) => ({ default: m.LaptopScene })),
 );
 
 export function Hero() {
@@ -55,8 +55,8 @@ export function Hero() {
           </RevealGroup>
 
           <Reveal variant="scale" duration={1100} delay={180}>
-            <Suspense fallback={<SceneFallback />}>
-              <HeroScene />
+            <Suspense fallback={<CodeMacBook />}>
+              <LaptopScene />
             </Suspense>
           </Reveal>
         </div>
